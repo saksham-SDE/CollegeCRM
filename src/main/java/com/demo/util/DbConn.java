@@ -8,7 +8,7 @@ public class DbConn {
     private Connection conn;
     private String url="jdbc:mysql://localhost:3306/sakshamdb";
     private String username="root";
-    private String password="21Saksham@2005";
+    private String password="root@2024";
     private DbConn(){
         try{
             this.conn=DriverManager.getConnection(url,username,password);
